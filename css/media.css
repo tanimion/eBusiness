@@ -2,7 +2,7 @@
 @media (max-width: 1025px) {
   .top-header ul li {
     font-size: 15px;
-    margin-left: -68px;
+    margin-left: -110px;
   }
   .navbar-brand img {
     width: 65%;
@@ -170,13 +170,12 @@
     font-size: 17px;
   }
 }
-}
 
 /* Tablet Device */
-@media (max-width: 770px) {
+@media (max-width: 768px) {
   .top-header ul li {
     font-size: 13px;
-    margin-left: -68px;
+    margin-left: -105px;
   }
 
   .navbar-brand {
@@ -350,7 +349,7 @@
 @media (max-width: 426px) {
   .top-header ul li {
     font-size: 17px;
-    margin-right: 5px;
+    margin-left: 5px;
   }
 
   .navbar-brand {
@@ -519,7 +518,7 @@
 @media (max-width: 376px) {
   .top-header ul li {
     font-size: 15px;
-    margin-right: -12px;
+    margin-left: -12px;
   }
 
   .navbar-brand {
@@ -685,10 +684,10 @@
 }
 
 /* Mobile S Device */
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .top-header ul li {
     font-size: 15px;
-    margin-right: -12px;
+    margin-left: -12px;
   }
 
   .navbar-brand {
@@ -700,7 +699,7 @@
   }
 
   .hg {
-    min-height: 40vh;
+    min-height: 50vh;
   }
 
   .banner h1 {
