@@ -1,141 +1,854 @@
-/* large device */
-@media(max-width:1199px){
-    .work-content {
-        padding: 50px 0;
-    }
+/* Laptop Device */
+@media (max-width: 1025px) {
+  .top-header ul li {
+    font-size: 15px;
+    margin-left: -68px;
+  }
+  .navbar-brand img {
+    width: 65%;
+  }
 
-    .get-content ul li a {
-        padding: 5px 5px;
-    }
+  .btn-consultation {
+    font-size: 14px !important;
+  }
 
-    .step {
-        width: 100px;
-        height: 100px;
-    }
+  .hg {
+    min-height: 100vh;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+  }
+
+  .banner p {
+    font-size: 22px;
+  }
+
+  .btn-free {
+    font-size: 17px;
+  }
+
+  .heading h1 {
+    font-size: 38px;
+  }
+
+  .heading p {
+    font-size: 18px;
+  }
+
+  .heading-content h3 {
+    font-size: 21px;
+  }
+
+  .heading-content p {
+    font-size: 15px;
+  }
+
+  .step-detail-one {
+    top: 50%;
+    right: -38px;
+    transform: translateY(-50%);
+    height: 80px;
+    width: 80px;
+  }
+
+  .step-detail-one h1,
+  .step-detail-two h1 {
+    margin-top: 5px;
+    font-size: 30px;
+  }
+
+  .approach-content h4 {
+    text-align: left;
+    margin: 10px 50px;
+    font-size: 20px;
+  }
+
+  .approach-content p {
+    text-align: left;
+    margin: 10px 50px;
+    font-size: 15px;
+  }
+
+  .approach-content-second h4 {
+    text-align: right;
+    margin: 10px 50px;
+    font-size: 20px;
+  }
+
+  .approach-content-second p {
+    text-align: right;
+    margin: 10px 50px;
+    font-size: 15px;
+  }
+
+  .step-detail-two {
+    top: 50%;
+    left: -38px;
+    transform: translateY(-50%);
+    height: 80px;
+    width: 80px;
+  }
+
+  .work-heading h1 {
+    font-size: 38px;
+  }
+
+  .work-heading p {
+    font-size: 18px;
+  }
+
+  .image {
+    height: 171px;
+    overflow: hidden;
+  }
+
+  .single-work {
+    height: 171px;
+  }
+
+  .work-content i {
+    font-size: 22px;
+  }
+
+  .work-content h3 {
+    font-size: 22px;
+  }
+
+  .work-content p {
+    font-size: 14px;
+  }
+
+  .contact-heading h1 {
+    font-size: 30px;
+  }
+
+  .contact-heading p {
+    font-size: 20px;
+  }
+
+  .card-body {
+    padding: 13px;
+  }
+
+  .btn-arrow {
+    font-size: 15px;
+  }
+  .btn-cross {
+    font-size: 15px;
+    right: -20px;
+  }
+
+  .btn-arrow:hover {
+    font-size: 15px;
+  }
+  .btn-cross:hover {
+    font-size: 15px;
+    right: -20px;
+  }
+
+  .form-color p {
+    font-size: 15px;
+  }
+  .form-control::placeholder {
+    font-size: 13px;
+  }
+
+  .btn-danger {
+    font-size: 14px;
+  }
+
+  .touch-content h1 {
+    font-size: 40px;
+  }
+
+  .touch-content ul li i {
+    font-size: 15px;
+  }
+
+  .touch-content p {
+    font-size: 17px;
+  }
+}
 }
 
-/* medium device */
-@media(max-width:991px){
-    .step {
-        width: 100px;
-        height: 100px;
-    }
-    .work-content h3 {
-        font-size: 20px;
-    }
-    .work-content p {
-        font-size: 14px;
-    }
+/* Tablet Device */
+@media (max-width: 770px) {
+  .top-header ul li {
+    font-size: 13px;
+    margin-left: -68px;
+  }
 
-    .get-content ul li a {
-        padding: 4px 2px;
-    }
+  .navbar-brand {
+    width: 70%;
+  }
 
+  .navbar-brand img {
+    width: 45%;
+  }
+
+  .hg {
+    min-height: 90vh;
+  }
+
+  .banner h1 {
+    font-size: 32px;
+  }
+
+  .banner p {
+    font-size: 18px;
+  }
+
+  .btn-free {
+    font-size: 13px;
+  }
+
+  .heading h1 {
+    font-size: 34px;
+  }
+
+  .heading p {
+    font-size: 14px;
+  }
+
+  .heading-content h3 {
+    font-size: 17px;
+  }
+
+  .heading-content p {
+    font-size: 12px;
+  }
+
+  .step-detail-one {
+    top: 50%;
+    right: -38px;
+    transform: translateY(-50%);
+    height: 80px;
+    width: 80px;
+  }
+
+  .step-detail-one h1,
+  .step-detail-two h1 {
+    margin-top: 5px;
+    font-size: 30px;
+  }
+
+  .approach-content h4 {
+    text-align: left;
+    margin: 10px 50px;
+    font-size: 20px;
+  }
+
+  .approach-content p {
+    text-align: left;
+    margin: 10px 50px;
+    font-size: 15px;
+  }
+
+  .approach-content-second h4 {
+    text-align: right;
+    margin: 10px 50px;
+    font-size: 20px;
+  }
+
+  .approach-content-second p {
+    text-align: right;
+    margin: 10px 50px;
+    font-size: 15px;
+  }
+
+  .step-detail-two {
+    top: 50%;
+    left: -38px;
+    transform: translateY(-50%);
+    height: 80px;
+    width: 80px;
+  }
+
+  .work-heading h1 {
+    font-size: 34px;
+  }
+
+  .work-heading p {
+    font-size: 15px;
+  }
+
+  .image {
+    height: 171px;
+    overflow: hidden;
+  }
+
+  .single-work {
+    height: 171px;
+  }
+
+  .work-content i {
+    font-size: 20px;
+  }
+
+  .work-content h3 {
+    font-size: 20px;
+  }
+
+  .work-content p {
+    font-size: 12px;
+  }
+
+  .contact-heading h1 {
+    font-size: 25px;
+  }
+
+  .contact-heading p {
+    font-size: 17px;
+  }
+
+  .card-body {
+    padding: 13px;
+  }
+
+  .btn-arrow {
+    font-size: 15px;
+  }
+  .btn-cross {
+    font-size: 15px;
+    right: -13px;
+  }
+
+  .btn-arrow:hover {
+    font-size: 15px;
+  }
+  .btn-cross:hover {
+    font-size: 15px;
+    right: -13px;
+  }
+
+  .form-color p {
+    font-size: 15px;
+  }
+  .form-control::placeholder {
+    font-size: 13px;
+  }
+
+  .btn-danger {
+    font-size: 11px;
+  }
+
+  .touch-content h1 {
+    font-size: 34px;
+  }
+
+  .touch-content ul li i {
+    font-size: 13px;
+  }
+
+  .touch-content p {
+    font-size: 16px;
+  }
 }
 
-/* small device */
-@media(max-width:767px){
-    .top-header-content {
-        margin: auto;
-    }
+/* Mobile L Device */
+@media (max-width: 426px) {
+  .top-header ul li {
+    font-size: 17px;
+    margin-right: 5px;
+  }
 
-    .appr_img {
-        padding: 30px 0;
-     }
+  .navbar-brand {
+    width: 70%;
+  }
 
-     .cont h3 {
-        padding-top: 20px;
-    }
+  .navbar-brand img {
+    width: 70%;
+  }
 
-    .step {
-        width: 100px;
-        height: 100px;
-    }
+  .hg {
+    min-height: 50vh;
+  }
 
-    .work-content h3 {
-        font-size: 20px;
-    }
-    .work-content p {
-        font-size: 14px;
-    }
+  .banner h1 {
+    font-size: 29px;
+  }
 
+  .banner p {
+    font-size: 16px;
+  }
+
+  .btn-free {
+    font-size: 10px;
+  }
+
+  .heading h1 {
+    font-size: 34px;
+  }
+
+  .heading p {
+    font-size: 15px;
+  }
+
+  .heading-content h3 {
+    font-size: 20px;
+  }
+
+  .heading-content p {
+    font-size: 15px;
+  }
+
+  .step-detail-one {
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    width: 80px;
+  }
+
+  .step-detail-one h1,
+  .step-detail-two h1 {
+    margin-top: 5px;
+    font-size: 30px;
+  }
+
+  .approach-content h4 {
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+
+  .approach-content p {
+    text-align: center;
+    margin: 10px 15px;
+    font-size: 15px;
+  }
+
+  .approach-content-second h4 {
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+
+  .approach-content-second p {
+    text-align: center;
+    margin: 10px 15px;
+    font-size: 15px;
+  }
+
+  .step-detail-two {
+    top: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    width: 80px;
+  }
+
+  .image-pad {
+    margin-top: 72px;
+  }
+
+  .work-heading h1 {
+    font-size: 34px;
+  }
+
+  .work-heading p {
+    font-size: 15px;
+  }
+
+  .work-content i {
+    font-size: 25px;
+  }
+
+  .work-content h3 {
+    font-size: 25px;
+  }
+
+  .work-content p {
+    font-size: 14px;
+  }
+
+  .contact-heading h1 {
+    font-size: 20px;
+  }
+
+  .contact-heading p {
+    font-size: 15px;
+  }
+
+  .card-body {
+    padding: 13px;
+  }
+
+  .btn-arrow {
+    font-size: 15px;
+  }
+  .btn-cross {
+    font-size: 15px;
+    right: -13px;
+  }
+
+  .btn-arrow:hover {
+    font-size: 15px;
+  }
+  .btn-cross:hover {
+    font-size: 15px;
+    right: -13px;
+  }
+
+  .form-color p {
+    font-size: 15px;
+  }
+  .form-control::placeholder {
+    font-size: 13px;
+  }
+
+  .btn-danger {
+    font-size: 11px;
+  }
+
+  .touch-content h1 {
+    font-size: 34px;
+  }
+
+  .touch-content ul li i {
+    font-size: 13px;
+  }
+
+  .touch-content p {
+    font-size: 16px;
+  }
 }
 
-/* extra small device */
-@media(max-width:575px){
-    .btn-custom {
-        font-size: 14px;
-    }
-    .banner h5 {
-        margin-bottom: 14px;
-    }
-    .banner h1 {
-        font-size: 30px;
-    }
-    .hg {
-        min-height: 50vh;
-    }
-    .about_us h5 {
-        font-size: 16px;
-    }
-    .about_us h1 {
-        
-        font-size: 35px;
-    }
-    span {
-        height: 4px;
-        width: 44px;
-    }
+/* Mobile M Device */
+@media (max-width: 376px) {
+  .top-header ul li {
+    font-size: 15px;
+    margin-right: -12px;
+  }
 
-    .step {
-        top: 54%;
-        right: -14%;
-        width: 80px;
-        height: 80px;
-    }
+  .navbar-brand {
+    width: 70%;
+  }
 
-    .step h1 {
-        font-weight: 600;
-        font-size: 26px;
-    }
+  .navbar-brand img {
+    width: 70%;
+  }
 
-    .step p {
-        font-size: 18px;
-        font-weight: 500;
-    }
+  .hg {
+    min-height: 50vh;
+  }
 
-    .apprch .step {
-        
-        left: -14%;
-        top: 54%;
-    }
+  .banner h1 {
+    font-size: 29px;
+  }
 
-    .appr_img {
-       padding: 30px 0;
-    }
+  .banner p {
+    font-size: 16px;
+  }
 
-    .cont h3 {
-        font-size: 25px;
-        padding-top: 20px;
-    }
+  .btn-free {
+    font-size: 10px;
+  }
 
-    .cont p {
-        font-size: 14px;
-    }
+  .heading h1 {
+    font-size: 34px;
+  }
 
-    .contact h1 {
-        font-size: 27px;
-    }
+  .heading p {
+    font-size: 15px;
+  }
 
-    .get-content h1 {
-        font-size: 35px;
-    }
+  .heading-content h3 {
+    font-size: 20px;
+  }
 
-    .get-content ul li a {
-        padding: 5px 5px;
-    }
+  .heading-content p {
+    font-size: 15px;
+  }
 
-    .get-content p {
-        font-size: 15px;
-    }
+  .step-detail-one {
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    width: 80px;
+  }
+
+  .step-detail-one h1,
+  .step-detail-two h1 {
+    margin-top: 5px;
+    font-size: 30px;
+  }
+
+  .approach-content h4 {
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+
+  .approach-content p {
+    text-align: center;
+    margin: 10px 15px;
+    font-size: 15px;
+  }
+
+  .approach-content-second h4 {
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+
+  .approach-content-second p {
+    text-align: center;
+    margin: 10px 15px;
+    font-size: 15px;
+  }
+
+  .step-detail-two {
+    top: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    width: 80px;
+  }
+
+  .image-pad {
+    margin-top: 72px;
+  }
+
+  .work-heading h1 {
+    font-size: 34px;
+  }
+
+  .work-heading p {
+    font-size: 15px;
+  }
+
+  .work-content i {
+    font-size: 25px;
+  }
+
+  .work-content h3 {
+    font-size: 25px;
+  }
+
+  .work-content p {
+    font-size: 14px;
+  }
+
+  .contact-heading h1 {
+    font-size: 17px;
+  }
+
+  .contact-heading p {
+    font-size: 14px;
+  }
+
+  .card-body {
+    padding: 13px;
+  }
+
+  .btn-arrow {
+    font-size: 15px;
+  }
+  .btn-cross {
+    font-size: 15px;
+    right: -13px;
+  }
+
+  .btn-arrow:hover {
+    font-size: 15px;
+  }
+  .btn-cross:hover {
+    font-size: 15px;
+    right: -13px;
+  }
+
+  .form-color p {
+    font-size: 15px;
+  }
+  .form-control::placeholder {
+    font-size: 13px;
+  }
+
+  .btn-danger {
+    font-size: 11px;
+  }
+
+  .touch-content h1 {
+    font-size: 34px;
+  }
+
+  .touch-content ul li i {
+    font-size: 13px;
+  }
+
+  .touch-content p {
+    font-size: 14px;
+  }
+}
+
+/* Mobile S Device */
+@media (max-width: 320px) {
+  .top-header ul li {
+    font-size: 15px;
+    margin-right: -12px;
+  }
+
+  .navbar-brand {
+    width: 70%;
+  }
+
+  .navbar-brand img {
+    width: 70%;
+  }
+
+  .hg {
+    min-height: 40vh;
+  }
+
+  .banner h1 {
+    font-size: 29px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+
+  .btn-free {
+    font-size: 10px;
+  }
+
+  .heading h1 {
+    font-size: 34px;
+  }
+
+  .heading p {
+    font-size: 15px;
+  }
+
+  .heading-content h3 {
+    font-size: 20px;
+  }
+
+  .heading-content p {
+    font-size: 15px;
+  }
+
+  .step-detail-one {
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    width: 80px;
+  }
+
+  .step-detail-one h1,
+  .step-detail-two h1 {
+    margin-top: 5px;
+    font-size: 30px;
+  }
+
+  .approach-content h4 {
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+
+  .approach-content p {
+    text-align: center;
+    margin: 10px 15px;
+    font-size: 15px;
+  }
+
+  .approach-content-second h4 {
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+
+  .approach-content-second p {
+    text-align: center;
+    margin: 10px 15px;
+    font-size: 15px;
+  }
+
+  .step-detail-two {
+    top: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    width: 80px;
+  }
+
+  .image-pad {
+    margin-top: 72px;
+  }
+
+  .work-heading h1 {
+    font-size: 34px;
+  }
+
+  .work-heading p {
+    font-size: 15px;
+  }
+
+  .work-content i {
+    font-size: 25px;
+  }
+
+  .work-content h3 {
+    font-size: 25px;
+  }
+
+  .work-content p {
+    font-size: 14px;
+  }
+
+  .contact-heading h1 {
+    font-size: 17px;
+  }
+
+  .contact-heading p {
+    font-size: 14px;
+  }
+
+  .card-body {
+    padding: 13px;
+  }
+
+  .btn-arrow {
+    font-size: 15px;
+  }
+  .btn-cross {
+    font-size: 15px;
+    right: -13px;
+  }
+
+  .btn-arrow:hover {
+    font-size: 15px;
+  }
+  .btn-cross:hover {
+    font-size: 15px;
+    right: -13px;
+  }
+
+  .form-color p {
+    font-size: 15px;
+  }
+  .form-control::placeholder {
+    font-size: 13px;
+  }
+
+  .btn-danger {
+    font-size: 11px;
+  }
+
+  .touch-content h1 {
+    font-size: 34px;
+  }
+
+  .touch-content ul li i {
+    font-size: 13px;
+  }
+
+  .touch-content p {
+    font-size: 14px;
+  }
 }
